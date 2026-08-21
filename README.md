@@ -14,7 +14,7 @@
 ## التثبيت
 
 ```bash
-pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.0/ados_exec-0.2.0-py3-none-any.whl
+pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.1/ados_exec-0.2.1-py3-none-any.whl
 ```
 
 تحقّقتُ من هذا الأمر فعليًا في بيئة نظيفة معزولة قبل نشره هنا.
