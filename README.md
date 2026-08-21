@@ -14,7 +14,7 @@
 ## التثبيت
 
 ```bash
-pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.1/ados_exec-0.2.1-py3-none-any.whl
+pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.2/ados_exec-0.2.2-py3-none-any.whl
 ```
 
 تحقّقتُ من هذا الأمر فعليًا في بيئة نظيفة معزولة قبل نشره هنا.
@@ -47,7 +47,7 @@ ados install
 يسألك تفاعليًا: أي وكلاء عندك؟ (حاليًا: Claude → `.claude/skills/`، Agy → `.agents/skills/`)،
 وينسخ نصّ `epic-runner`/`ticket-executor`/`ticket-reviewer` إلى مجلد كل وكيل تختاره.
 غير تفاعلي: `ados install --agents claude,agy`. لتثبيت في مسار آخر غير المجلد الحالي:
-`--target <مسار>`.
+`--target <مسار>`. هذه الحزمة تُثبِّت طبقة `execution` فقط (الافتراضي) — طلب `--layer management` يفشل برسالة توجّهك للحزمة الكاملة.
 
 **لا يلمس `.ados/execution.json` إطلاقًا** — عقد مشروعك بيانات حقيقية خاصة به، لا يولّدها
 أمر تركيب عام. يجب أن يكون موجودًا في المستودع فعلًا قبل أي استخدام للمهارات.
