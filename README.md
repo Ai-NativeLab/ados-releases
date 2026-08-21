@@ -14,7 +14,7 @@
 ## التثبيت
 
 ```bash
-pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.3/ados_exec-0.2.3-py3-none-any.whl
+pip install https://github.com/Ai-NativeLab/ados-releases/releases/download/ados-exec-v0.2.4/ados_exec-0.2.4-py3-none-any.whl
 ```
 
 تحقّقتُ من هذا الأمر فعليًا في بيئة نظيفة معزولة قبل نشره هنا.
@@ -81,6 +81,7 @@ fast-forward فقط) حين يكون ذلك ممكنًا بلا مخاطرة.
 خيارات إضافية:
 - `--remote <اسم>` — اسم البعيد إن لم يكن `origin` (نادر).
 - `--no-pull` — افحص فقط بلا سحب تلقائي حتى لو كان آمنًا.
+- `--branch <اسم>` — افحص مقابل فرع محدَّد بدل `component.main_branch` — لاستئناف ملحمة قائمة على فرعها الخاص لا بدء جديد.
 
 **متى تحتاجه فعليًا:** المهارة المنسِّقة لتنفيذ ملحمة كاملة تشغّله تلقائيًا قبل أي فرع أو
 تذكرة. شغّله يدويًا لو أردت التأكد من جاهزيتك **قبل** أن تطلب من عميلك بدء ملحمة — يوفّر
